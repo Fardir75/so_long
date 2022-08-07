@@ -6,7 +6,7 @@
 /*   By: eavilov <eavilov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 15:59:23 by eavilov           #+#    #+#             */
-/*   Updated: 2022/04/02 14:16:45 by eavilov          ###   ########.fr       */
+/*   Updated: 2022/08/07 10:42:22 by eavilov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,7 +99,7 @@ int	ft_map_checker(t_struc *vars, t_assets *content)
 	if (ft_isthere_asset(vars->readcont, &*vars, &*content) == 0)
 	{
 		if (content->player > 1)
-			ft_putstr("Error : you have to many players\n");
+			ft_putstr("Error : you have too many players\n");
 		else if (content->player == 0)
 			ft_putstr("Error : you have no player\n");
 		else if (content->item == 0)
